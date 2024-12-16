@@ -143,11 +143,13 @@ header {
 
 .section-one {
     width: 50%;
-    background-image: url(images/banner-11.jpg);
+    background-image: url(https://i0.wp.com/textilelearner.net/wp-content/uploads/2023/04/Product-Development-in-Fashion-Industry.jpg?fit=600%2C400&ssl=1);
     background-repeat: no-repeat;
     background-size: cover;
+    height: 500px;
     margin: 10px;
-    padding: 30px;
+    padding: 130px 30px;
+    color: white;
 }
 
 .section-one h3 {
@@ -162,7 +164,7 @@ header {
     font-size: 14px;
     max-width: 350px;
     margin-top: 15px;
-    color: rgb(124, 124, 124);
+    color: rgb(255, 255, 255);
     font-weight: 100;
 }
 
@@ -178,11 +180,12 @@ header {
 .section-one ul li {
     line-height: 1.6;
     text-align: left;
+    color: white;
 }
 
 .section-one ul li a {
     text-decoration: none;
-    color: black;
+    color: rgb(255, 255, 255);
 }
 
 /* section-two tag */
@@ -193,11 +196,12 @@ header {
 }
 
 .section-two-one {
-    background-image: url(images/banner-12.jpg);
+    background-image: url(https://www.supplychainbrain.com/ext/resources/2022/12/13/FASHION-FABRIC-CLOTHING-CLOTHES-RETAIL-iStock-Grosescu-Alberto-Mihai-626856214.jpg?t=1670943118&width=1080);
     padding: 30px;
     background-repeat: no-repeat;
     background-size: cover;
     height: 250px;
+    color: white;
 }
 
 .section-two-one h3 {
@@ -224,7 +228,7 @@ header {
 
 .section-two ul li a {
     text-decoration: none;
-    color: black;
+    color: rgb(255, 255, 255);
 }
 
 /* section-two-one-boxes */
@@ -240,11 +244,12 @@ header {
 }
 
 .section-two-two {
-    background-image: url(images/banner-13.jpg);
+    background-image: url(https://cdn.shopify.com/s/files/1/0840/8370/3830/articles/1603954895-gentlemans-fashion-flatlay.jpg?v=1714646315);
     padding: 30px;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 340px;
+    height: 229px;
+    color: white;
 }
 
 .section-two-two h3 {
@@ -262,11 +267,13 @@ header {
 }
 
 .section-two-three {
-    background-image: url(images/banner-14.jpg);
+    background-image: url(https://indian-retailer.s3.ap-south-1.amazonaws.com/s3fs-public/2024-08/The%20Importance%20of%20a%20Consumer-Centric%20Approach%20in%20Shaping%20the%20Future%20of%20Ethnic%20Wear%20fashion.jpg);
     padding: 30px;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 340px;
+    background-position: center;
+    height: 229px;
+    color: white;
 }
 
 .section-two-three h3 {
@@ -336,12 +343,6 @@ header {
     height: 100%;
 }
 
-.offer {
-    position: absolute;
-    top: 20px;
-    left: 20px;
-}
-
 .offer h4 {
     font-size: 14px;
     background-color: rgb(255, 255, 255);
@@ -402,27 +403,60 @@ header {
 .season-detail {
     display: flex;
     width: 100%;
+    justify-content: space-evenly;
 }
 
 .season1 {
-    width: 50%;
-    background-image: url(images/banner-22.jpg);
+    width: 630px;
+    height: 320px;
+    background-image: url(https://thumbs.wbm.im/pw/small/4cc08b23866fb32ef0fa4d2ed26725de.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    padding: 50px;
+    background-position: center;
     object-fit: cover;
-    margin: 18px 18px 18px 0px;
+    position: relative;
+    color: white;
+}
+
+.season1 .black {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
 }
 
 .season2 {
-    width: 50%;
-    background-image: url(images/banner-23.jpg);
+    width: 630px;
+    height: 320px;
+    background-image: url(https://media.voguebusiness.com/photos/65031a4600751f3ea4254064/3:2/w_1998,h_1332,c_limit/BROKEN-WHOLESALE-MODEL-voguebus-story.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     object-fit: cover;
-    padding: 50px;
-    margin: 18px 0px 18px 18px;
+    position: relative;
+    color: white;
 }
+
+.season2 .black {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.season1 .season-details {
+    position: absolute;
+    top: 60px;
+    bottom: 0;
+    left: 20px;
+}
+
+.season2 .season-details {
+    position: absolute;
+    top: 60px;
+    bottom: 0;
+    left: 20px;
+}
+
 
 .season-details h3 {
     font-size: 12px;
@@ -506,56 +540,66 @@ header {
 
 
 /* title-detailed2 */
-.title-detailed2{
+.title-detailed2 {
     width: 100%;
 }
-.title-detailed2{
+
+.title-detailed2 {
     text-align: center;
 }
-.title-detailed2 p{
+
+.title-detailed2 p {
     max-width: 900px;
     margin: 0 auto;
 }
 
 /* box-5 */
-.box-5-detail{
+.box-5-detail {
     display: flex;
     width: 100%;
 }
-.box-5-one{
+
+.box-5-one {
     width: 50%;
     display: flex;
 }
-.box-5-one .slider2{
+
+.box-5-one .slider2 {
     width: 45%;
     margin: 0px 15px;
 }
-.box-5-one .slider2 img{
+
+.box-5-one .slider2 img {
     width: 100%;
     height: 100%;
-} 
-.box-5-two{
+}
+
+.box-5-two {
     margin: 0px 15px;
     background-image: url(images/image-10.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     padding: 50px 250px 40px 75px;
 }
-.box-5-two .season-details{
+
+.box-5-two .season-details {
     color: white;
 }
-.box-5-twos{
+
+.box-5-twos {
     margin: 0px 15px;
-    background-image: url(images/banner-25.jpg);
+    background-image: url(https://www.petro-online.com/assets/file_store/pr_files/37732/thumbnails/images/391w_17300821859_b102c23f26_z.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    padding: 50px 250px 40px 75px;
+    padding: 300px 250px 40px 30px;
 }
-.box-5-twos .season-details{
-    color: white;
+
+.box-5-twos .season-details {
+    color: rgb(255, 255, 255);
 }
-.box-5-twos a{
-    color: white
+
+.box-5-twos a {
+    color: rgb(255, 255, 255)
 }
 
 .slider2 .image-detail2 {
@@ -599,134 +643,156 @@ header {
     font-weight: 100;
 }
 
-hr{
+hr {
     margin: 50px 0px;
 }
 
 /* section box-6 */
-.box-6{
+.box-6 {
     margin: 100px;
 }
-.box-6-detail{
+
+.box-6-detail {
     display: flex;
     width: 100%;
     padding: 0px 1%;
 }
-.box-image-detail{
+
+.box-image-detail {
     background-color: rgb(252, 252, 247);
     width: 50%;
     text-align: center;
     padding: 100px 0px;
 }
-.box-image-detail h4{
+
+.box-image-detail h4 {
     font-size: 12px;
 }
-.box-image-detail h2{
+
+.box-image-detail h2 {
     font-size: 50px;
     font-family: Arial, Helvetica, sans-serif;
     max-width: 400px;
     margin: 0 auto;
 }
-.box-image-detail p{
+
+.box-image-detail p {
     font-size: 14px;
     max-width: 500px;
     margin: 10px auto;
 }
-.box-image-detail button{
+
+.box-image-detail button {
     padding: 10px 20px;
     border-radius: 30px;
-    border: 1px solid red; 
+    border: 1px solid red;
     color: red;
     background: none;
 }
-.box-image-detail button:hover{
+
+.box-image-detail button:hover {
     background-color: red;
     color: white;
 }
-.box-image{
+
+.box-image {
     width: 50%;
 }
-.box-image img{
+
+.box-image img {
     width: 100%;
     height: 100%;
 }
 
 /* box-7 */
-.box-7-detail{
+.box-7-detail {
     width: 100%;
     display: flex;
     gap: 50px;
     padding: 1%;
 }
 
-.box-7-detail .blog1{
+.box-7-detail .blog1 {
     width: 31%;
 }
-.box-7-detail .blog1 .image img{
+
+.box-7-detail .blog1 .image img {
     width: 100%;
     height: 100%;
-} 
-.box-7-detail .blog1 .image-detail{
+}
+
+.box-7-detail .blog1 .image-detail {
     margin: 10px 0px;
 }
-.blog1 .image-detail h4{
+
+.blog1 .image-detail h4 {
     font-size: 14px;
     color: rgb(145, 145, 145);
 }
-.blog1 .image-detail h2{
+
+.blog1 .image-detail h2 {
     font-size: 23px;
 }
-.blog1 .image-detail p{
+
+.blog1 .image-detail p {
     font-size: 14px;
 }
 
 /* box-8 */
-.box-8{
+.box-8 {
     background-color: black;
     color: white;
     padding: 50px 0px;
 }
-.box-8-detail{
+
+.box-8-detail {
     display: flex;
     padding: 1%;
 }
-.part1{
+
+.part1 {
     width: 50%;
 }
 
-.part1 h2{
+.part1 h2 {
     font-size: 30px;
     max-width: 400px;
 }
-.part1 h3{
+
+.part1 h3 {
     font-size: 15px;
     font-weight: 100;
     color: rgb(152, 152, 152);
 }
-.part1 .mail{
+
+.part1 .mail {
     margin: 20px 0px;
 }
-.part1 .mail input{
+
+.part1 .mail input {
     width: 60%;
     padding: 5px 0px;
-    border:1px solid white;
+    border: 1px solid white;
     outline: none;
     text-indent: 10px;
 }
-.part1 .mail button{
+
+.part1 .mail button {
     width: 30%;
     padding: 5px 0px;
-    border:1px solid white;
+    border: 1px solid white;
     outline: none;
     text-indent: 10px;
     background: none;
     color: white;
 }
-.part1 h4{
+
+.part1 h4 {
     color: rgb(142, 142, 142);
     font-size: 14px;
 }
-.part1 .sponser{
+
+.part1 .sponser {
     display: flex;
     align-items: center;
     gap: 10px;
